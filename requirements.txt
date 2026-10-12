@@ -1,0 +1,27 @@
+# Голосовой ассистент Edward
+# Установка: pip install -r requirements.txt
+
+# Распознавание речи
+vosk==0.3.45
+sounddevice==0.4.6
+numpy>=1.24.0
+
+# Озвучивание (TTS)
+edge-tts==6.1.9
+pyttsx3==2.90
+
+# Нейросеть
+ollama==0.2.1
+
+# Wake-on-LAN для ТВ
+wakeonlan==3.1.0
+
+# StarLine API
+requests==2.31.0
+python-dotenv==1.0.0
+
+# Асинхронность
+aiohttp==3.9.1
+
+# Дополнительно
+scipy>=1.11.0
